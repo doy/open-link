@@ -1,6 +1,3 @@
-extern crate linkify;
-extern crate open;
-
 use std::io::prelude::*;
 
 fn read_stdin() -> String {

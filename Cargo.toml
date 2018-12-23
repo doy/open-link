@@ -2,6 +2,7 @@
 name = "open-link"
 version = "0.1.0"
 authors = ["Jesse Luehrs <doy@tozt.net>"]
+edition = "2018"
 
 [dependencies]
 linkify = "0.3"
