@@ -12,7 +12,7 @@ fn main() {
     let input = read_stdin();
     let finder = linkify::LinkFinder::new();
     let links: Vec<_> = finder.links(&input).map(|l| l.as_str()).collect();
-    if links.is_empty() {
+    if !links.is_empty() {
         open::that(links[links.len() - 1]).unwrap();
     }
 }
